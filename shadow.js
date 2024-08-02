@@ -1,17 +1,17 @@
 /*
  * * * * * * * * * * * * * * * * * * * * * 
- * SHADOW v1.1
- * Express middleware and random utilites
+ * SHADOW v1.2
+ * Random utilities for my code
  * Made for Silly Keys by TeamSilly
  * Developed by at4pm
- * Last updated: 18-07-24
+ * Last updated: 2-08-24
  * * * * * * * * * * * * * * * * * * * * *
 */
 
 const { randomBytes } = require("crypto");
 const lua = require("luaparse");
 
-// middlewares
+// express middleware
 function restrict(req, res, next) {
     const userAgent = req.get("User-Agent").toLowerCase();
 
@@ -23,7 +23,7 @@ function restrict(req, res, next) {
     }
 }
 
-// other shit
+// encryption, encoding 
 function encode(str) {
     let base64Table = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
     let encoded = "";
@@ -64,6 +64,7 @@ function encrypt(message, key) {
     return encryptedMessage;
 }
 
+// random shit
 function generate() {
     return randomBytes(12)
         .toString('base64')
