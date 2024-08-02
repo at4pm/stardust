@@ -39,7 +39,7 @@ Here is how to use Stardust
 Your done! Make keys using your Script ID and distribute our script with your key. We will handle the rest.
 
 ## API Usage
-Check out our [example.](https://github.com/teamsilly/sillykeys/blob/main/apiExample.js)
+Check out our [example.](https://github.com/at4pm/stardust/blob/main/apiExample.js)
 
 ## Languages + Packages
 - Backend
