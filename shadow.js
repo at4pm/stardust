@@ -2,7 +2,7 @@
  * * * * * * * * * * * * * * * * * * * * * 
  * SHADOW v1.2
  * Random utilities for my code
- * Made for Silly Keys by TeamSilly
+ * Made for Stardust by TeamAstral
  * Developed by at4pm
  * Last updated: 2-08-24
  * * * * * * * * * * * * * * * * * * * * *
